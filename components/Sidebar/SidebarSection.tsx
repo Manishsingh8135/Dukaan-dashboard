@@ -15,6 +15,7 @@ import { MdPayments } from "react-icons/md";
 import { TbDiscount2 } from "react-icons/tb";
 import { MdPeopleAlt } from "react-icons/md";
 import { IoIosColorPalette } from "react-icons/io";
+import { FaClipboardList } from "react-icons/fa";
 
 import { IoIosArrowDown } from "react-icons/io";
 import Image from 'next/image';
@@ -22,7 +23,7 @@ import Image from 'next/image';
 const SidebarSection: React.FC = () => {
   const navLinks = [
     { Icon: AiOutlineHome, label: 'Home', href: '#home' },
-    { Icon: AiOutlineShoppingCart, label: 'Orders', href: '#orders' },
+    { Icon: FaClipboardList, label: 'Orders', href: '#orders' },
     { Icon: AiOutlineAppstore, label: 'Products', href: '#products' },
     { Icon: FiTruck, label: 'Delivery', href: '#delivery' },
     { Icon: AiOutlineSound, label: 'Marketing', href: '#marketing' },
