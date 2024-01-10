@@ -38,7 +38,7 @@ const SidebarSection: React.FC = () => {
   ];
 
   return (
-    <aside className="fixed h-screen w-64 bg-[#1E2640] text-white z-60">
+    <aside className="fixed h-screen w-64 bg-[#1E2640] text-white z-60 ">
       <div className="flex  items-center  px-3 mt-3">
         <div className='w-3/10 '>
         <Image  className='rounded-md' src="assets/company-logo.svg" alt="Company Logo" width={45} height={45} />

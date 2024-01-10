@@ -21,7 +21,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <div className="flex">
           <SidebarSection />
-          <div className="ml-64 flex-1"> 
+          <div className="md:ml-64 flex-1"> 
             <Navbar />
             <main>{children}</main> 
           </div>

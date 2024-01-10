@@ -15,11 +15,11 @@ const OverviewSection: React.FC = () => {
         </div>
       </div>
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-8">
-        <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:cursor-pointer hover:scale-105 hover:shadow-md  transition-transform duration-300">
+        <div className="bg-white p-6 rounded-lg shadow-sm  border-gray-200 hover:cursor-pointer hover:scale-105 hover:shadow-md  transition-transform duration-300">
           <h3 className="text-xl text-gray-600 mb-4">Online orders</h3>
           <p className="text-4xl">231</p>
         </div>
-        <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:cursor-pointer hover:scale-105 hover:shadow-md  transition-transform duration-300">
+        <div className="bg-white p-6 rounded-lg shadow-sm  border-gray-200 hover:cursor-pointer hover:scale-105 hover:shadow-md  transition-transform duration-300">
           <h3 className="text-xl text-gray-600 mb-4">Amount received</h3>
           <p className="text-4xl">₹23,92,312.19</p>
         </div>
