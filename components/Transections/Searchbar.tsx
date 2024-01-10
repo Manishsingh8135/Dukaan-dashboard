@@ -14,8 +14,8 @@ const SearchBar: React.FC = () => {
                 <input type="text" className=" py-2 w-full bg-transparent outline-none text-sm" placeholder="Search by order ID..." />
             </div>
             <div className='flex  gap-3'>
-                <div className='border-2 rounded-md border-gray-300 px-4 py-2 flex gap-2'><span>Sort</span> <BiSortAlt2 size={iconsize} /></div>
-                <div className='border-2 rounded-md border-gray-300 p-4 py-2'><MdOutlineFileDownload size={iconsize} /></div>
+                <div className='border-2 rounded-md border-gray-300 px-4 py-2 flex gap-2 hover:cursor-pointer'><span>Sort</span> <BiSortAlt2 size={iconsize} /></div>
+                <div className='border-2 rounded-md border-gray-300 p-4 py-2 hover:cursor-pointer'><MdOutlineFileDownload size={iconsize} /></div>
             </div>
         </div>
     );
