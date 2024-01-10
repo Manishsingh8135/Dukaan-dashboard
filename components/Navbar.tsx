@@ -4,7 +4,7 @@ import { AiOutlineQuestionCircle, AiOutlineSearch, AiOutlineBell, AiOutlineCaret
 const Navbar: React.FC = () => {
     const iconSize = '20';
     return (
-        <div className="flex justify-between items-center px-8 py-4 bg-white text-black w-full border-b border-gray-300 top-0 sticky ">
+        <div className="flex justify-between items-center px-8 py-4 bg-white text-black w-full border-b border-gray-300 top-0 sticky z-20">
             <div className="flex items-center gap-2 w-1/3">
                 <span className="text-xl">Payments</span>
                 <div className='flex items-center text-gray-500'>
